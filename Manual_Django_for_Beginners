@@ -37,4 +37,8 @@ ____________________ Create Page App ____________________
         ○ django_project/settings.py
         ○ INSTALLED_APPS = [ .... "pages.apps.PagesConfig", # new ]
 
-
+____________________ Setup  Pages App View ____________________
+     -  pages/views.py
+     - import HttpResponse
+     - def function
+     - return HttpResponse with message
