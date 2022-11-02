@@ -14,6 +14,7 @@ ____________________ Initial Set Up  ____________________
 6. Create a new Django project [.. Project Name = django_project]
     - django-admin startproject django_project .
 
+
     - Migrate
         python manage.py migrate
 7. Running Django’s internal web server
@@ -28,4 +29,12 @@ ____________________ Git SetUp -- Initialisation  ____________________
     - git commit -m "Django_for_Beginners - Chapter 2 - Hello World App"
     - git remote add origin https://github.com/ajmalrashadmarkz/10_22_01_Django_for_Beginners_Chapter-2_Hello-World-App.git
     - git push -u origin master
-    
+
+____________________ Create Page App ____________________
+    - Create App - pages
+        python manage.py startapp pages
+    - Register the App
+        ○ django_project/settings.py
+        ○ INSTALLED_APPS = [ .... "pages.apps.PagesConfig", # new ]
+
+
