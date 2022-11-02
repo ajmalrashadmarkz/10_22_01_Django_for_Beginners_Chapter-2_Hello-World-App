@@ -44,7 +44,14 @@ ____________________ Setup  Pages App View ____________________
      - return HttpResponse with message
 
 ____________________ Setup  Pages App urls ____________________
+    - pages/urls.py
     - Create a python file named as urls.py
     - Import path
     - Import homePagesView
     - Setup urlpatterns for homePageView .......urlpatterns=[path("",....,name=""),]
+
+____________________ Add urls path in project urls ____________________
+    - django_project/urls.py
+    - Import include
+    - Add pages App path in urls
+        path("",include("AppName.urls")),
