@@ -42,3 +42,9 @@ ____________________ Setup  Pages App View ____________________
      - import HttpResponse
      - def function
      - return HttpResponse with message
+
+____________________ Setup  Pages App urls ____________________
+    - Create a python file named as urls.py
+    - Import path
+    - Import homePagesView
+    - Setup urlpatterns for homePageView .......urlpatterns=[path("",....,name=""),]
